@@ -1,0 +1,15 @@
+This is the site holding the contents and configuration for generating.
+
+- perl-workflow.github.io / workflow.pm in the perl-workflow.github.io repository
+
+Currently the website is based on mkdocs.
+
+The site is generated from the perl-workflow.github.io repo like so:
+
+cd ../orgname.github.io/
+mkdocs gh-deploy --config-file ../my-project/mkdocs.yml --remote-branch master
+
+Documentation available at:
+
+- https://www.mkdocs.org/
+- https://www.mkdocs.org/user-guide/deploying-your-docs/
