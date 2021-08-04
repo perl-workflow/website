@@ -6,8 +6,8 @@ Currently the website is based on mkdocs.
 
 The site is generated from the perl-workflow.github.io repo like so:
 
-cd ../orgname.github.io/
-mkdocs gh-deploy --config-file ../my-project/mkdocs.yml --remote-branch master
+cd ../perl-workflow.github.io/
+mkdocs gh-deploy --config-file ../website/mkdocs.yml --remote-branch main
 
 Documentation available at:
 
