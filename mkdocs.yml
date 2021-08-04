@@ -1,0 +1,5 @@
+site_name: perl-workflow
+site_url: https://perl-workflow.github.io
+nav:
+    - Home: index.md
+    - About: about.md
